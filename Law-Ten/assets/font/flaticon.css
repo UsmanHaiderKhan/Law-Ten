@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 10/06/2019 06:23
+  	Creation date: 11/06/2019 12:26
   	*/
 
 @font-face {
@@ -30,19 +30,34 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-phone-receiver:before { content: "\f100"; }
-.flaticon-accident:before { content: "\f101"; }
-.flaticon-product:before { content: "\f102"; }
-.flaticon-dislike:before { content: "\f103"; }
-.flaticon-debt:before { content: "\f104"; }
-.flaticon-man-cycling:before { content: "\f105"; }
-.flaticon-motorcycle:before { content: "\f106"; }
-.flaticon-zynga-logotype:before { content: "\f107"; }
-.flaticon-truck-accident:before { content: "\f108"; }
-.flaticon-gavel:before { content: "\f109"; }
-.flaticon-email:before { content: "\f10a"; }
-.flaticon-pin:before { content: "\f10b"; }
-.flaticon-right-arrow:before { content: "\f10c"; }
-.flaticon-trajectory:before { content: "\f10d"; }
-.flaticon-left-arrow:before { content: "\f10e"; }
-.flaticon-pointer:before { content: "\f10f"; }
+.flaticon-right-arrow:before { content: "\f100"; }
+.flaticon-last-track-left-arrow:before { content: "\f101"; }
+.flaticon-maps-and-flags:before { content: "\f102"; }
+.flaticon-internet:before { content: "\f103"; }
+.flaticon-balance:before { content: "\f104"; }
+.flaticon-thief:before { content: "\f105"; }
+.flaticon-fire:before { content: "\f106"; }
+.flaticon-bank:before { content: "\f107"; }
+.flaticon-house:before { content: "\f108"; }
+.flaticon-finger:before { content: "\f109"; }
+.flaticon-mortarboard:before { content: "\f10a"; }
+.flaticon-foreclosure:before { content: "\f10b"; }
+.flaticon-family:before { content: "\f10c"; }
+.flaticon-gmail-logo:before { content: "\f10d"; }
+.flaticon-lawyer:before { content: "\f10e"; }
+.flaticon-calendar:before { content: "\f10f"; }
+.flaticon-phone-receiver:before { content: "\f110"; }
+.flaticon-family-1:before { content: "\f111"; }
+.flaticon-wounded:before { content: "\f112"; }
+.flaticon-car-crash:before { content: "\f113"; }
+.flaticon-book:before { content: "\f114"; }
+.flaticon-brokerage:before { content: "\f115"; }
+.flaticon-handcuffs:before { content: "\f116"; }
+.flaticon-facebook-logo:before { content: "\f117"; }
+.flaticon-smartphone-call:before { content: "\f118"; }
+.flaticon-instagram:before { content: "\f119"; }
+.flaticon-linkedin-logo:before { content: "\f11a"; }
+.flaticon-mother:before { content: "\f11b"; }
+.flaticon-health:before { content: "\f11c"; }
+.flaticon-email-filled-closed-envelope:before { content: "\f11d"; }
+.flaticon-placeholder:before { content: "\f11e"; }
