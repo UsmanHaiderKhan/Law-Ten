@@ -1617,26 +1617,22 @@
     <Content Include="assets\font\flaticon.css" />
     <Content Include="assets\font\flaticon.html" />
     <Content Include="assets\font\Flaticon.svg" />
-    <Content Include="assets\Images\about-video-banner.png" />
-    <Content Include="assets\Images\about=bg-banner.png" />
-    <Content Include="assets\Images\contact-banner.png" />
-    <Content Include="assets\Images\footer-logo.png" />
-    <Content Include="assets\Images\footer\f1.png" />
-    <Content Include="assets\Images\footer\f2.png" />
-    <Content Include="assets\Images\footer\f3.png" />
-    <Content Include="assets\Images\layer-banner.png" />
-    <Content Include="assets\Images\left.png" />
+    <Content Include="assets\Images\about-banner.png" />
+    <Content Include="assets\Images\cases\c1.png" />
+    <Content Include="assets\Images\cases\c2.png" />
+    <Content Include="assets\Images\cases\c3.png" />
+    <Content Include="assets\Images\cases\c4.png" />
+    <Content Include="assets\Images\cases\c5.png" />
+    <Content Include="assets\Images\cases\c6.png" />
+    <Content Include="assets\Images\cases\c7.png" />
+    <Content Include="assets\Images\cases\c8.png" />
+    <Content Include="assets\Images\cases\c9.png" />
     <Content Include="assets\Images\logo.png" />
     <Content Include="assets\Images\main-banner.png" />
-    <Content Include="assets\Images\right.png" />
-    <Content Include="assets\Images\service.png" />
-    <Content Include="assets\Images\team\t1.png" />
-    <Content Include="assets\Images\team\t2.png" />
-    <Content Include="assets\Images\team\t3.png" />
-    <Content Include="assets\Images\team\t4.png" />
-    <Content Include="assets\Images\team\t5.png" />
-    <Content Include="assets\Images\team\t6.png" />
+    <Content Include="assets\Images\slider-banner.png" />
+    <Content Include="assets\Images\tage-banner.png" />
     <Content Include="assets\Images\video-btn.png" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1699,6 +1695,11 @@
     <Content Include="assets\fontawesome-free-5.6.1-web\webfonts\fa-solid-900.ttf" />
     <Content Include="assets\fontawesome-free-5.6.1-web\webfonts\fa-solid-900.woff" />
     <Content Include="assets\fontawesome-free-5.6.1-web\webfonts\fa-solid-900.woff2" />
+    <Content Include="assets\Fonts\CriqueGroteskDisplay-Regular.ttf" />
+    <Content Include="assets\Fonts\Cocogoose Pro Light-trial.ttf" />
+    <Content Include="assets\Fonts\Cocogoose Pro Semilight-trial.ttf" />
+    <Content Include="assets\Fonts\Crique Grotesk Display Light.ttf" />
+    <Content Include="assets\Fonts\CriqueGroteskDisplay-Bold.ttf" />
     <Content Include="assets\font\Flaticon.eot" />
     <Content Include="assets\font\Flaticon.ttf" />
     <Content Include="assets\font\Flaticon.woff" />
@@ -1712,9 +1713,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="assets\Fonts\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
