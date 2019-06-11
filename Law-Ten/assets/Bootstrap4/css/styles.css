@@ -1,7 +1,30 @@
 ﻿/*================================= 
         Font-Family's Start
   =================================*/
+@font-face {
+    font-family: 'Cocogoose Pro Light-trial';
+    src: url('../../Fonts/Cocogoose Pro Light-trial.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'Cocogoose Pro Semilight-trial';
+    src: url('../../Fonts/Cocogoose Pro Semilight-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crique Grotesk Display Light';
+    src: url('../../Fonts/Crique Grotesk Display Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CriqueGroteskDisplay-Bold';
+    src: url('../../Fonts/CriqueGroteskDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CriqueGroteskDisplay-Regular';
+    src: url('../../Fonts/CriqueGroteskDisplay-Regular.ttf') format('truetype');
+}
 /*
    
     font-family: 'Poppins', sans-serif;
@@ -46,7 +69,7 @@ html, body {
 }
 
 .nav-item {
-    padding: 0px 16px 0 16px;
+    padding: 0px 10px 0 10px;
     position: relative;
 }
 
@@ -69,26 +92,24 @@ html, body {
 
 
 .navbar {
-    padding: 0px 0 0px 0;
+    padding: 20px 0 20px 0;
 }
 
 .active .nav-link {
     position: relative;
-    font-size: 20px;
-    color: #3a9e41 !important;
-    font-weight: 500;
+    font-size: 18px;
+    color: #33dbff !important;
+    font-weight: bold !important;
     text-transform: uppercase !important;
-    font-family: 'Poppins', sans-serif;
-    background: #000000;
+    font-family: 'CriqueGroteskDisplay-Bold' !important;
 }
 
 .navbar-nav .nav-link {
-    color: #222222;
-    font-size: 20px;
-    padding: 34px;
+    color: #444444;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-family: 'CriqueGroteskDisplay-Regular';
 }
 
 
@@ -106,24 +127,22 @@ html, body {
 }
 
 #home .main-banner-text {
-    font-size: 70px;
-    color: #3a9e41;
+    line-height: 60px;
+    font-size: 48px;
+    color: #33dbff;
     font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+    text-align: left;
+    font-family: 'CriqueGroteskDisplay-Bold';
+    text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.5);
 }
 
 #home .main-banner-desc {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Crique Grotesk Display Light';
 }
-
-
-
 
 .link-style {
     text-decoration: none;
@@ -135,518 +154,470 @@ html, body {
         color: #fafcfe;
     }
 
-#home .owl-theme .owl-nav {
-    position: relative;
-    margin-top: 0px;
-}
-
-#home .owl-carousel .owl-nav button.owl-next {
-    position: absolute;
-    right: 90px;
-    bottom: 342px;
-    box-shadow: -4px 5px 26px 2px #000
-}
-
-#home .owl-carousel .owl-nav button.owl-prev {
-    position: absolute;
-    left: 90px;
-    bottom: 342px;
-    box-shadow: -4px 5px 26px 2px #000
-}
-
-#home .owl-theme .owl-nav [class*=owl-] {
-    background: transparent;
-}
-
-.arrows-bg-color {
-}
-
-#home .flaticon-pointer:before {
-    content: "\f10f";
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    color: #3a9e41;
-    border-radius: 50%;
-    padding: 10px;
-    margin-left: 0;
-    font-weight: 900;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-}
-
-#home .flaticon-trajectory:before {
-    content: "\f10d";
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
-    color: #3a9e41;
-    padding: 10px;
-    border-radius: 50%;
-    margin-left: 0;
-    font-weight: 900;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-}
-
-#home .flaticon-phone-receiver:before {
-    content: "\f100";
-    position: absolute;
-    height: 70px;
-    width: 62px;
-    background: #ffffff;
-    margin-left: 0;
-    color: #3a9e41;
-    padding: 15px;
-    font-size: 26px;
-    border: none;
-    box-shadow: -1px 6px 12px 0px #000000;
-}
-
 #home .btn-contact {
-    width: 190px;
-    height: 70px;
-    font-size: 18px;
-    line-height: 52px;
+    width: 180px;
+    height: 50px;
     color: #ffffff;
     text-transform: uppercase;
-    border-radius: 0px;
-    border: 2px solid #ffffff;
-    background-color: #3a9e41;
-    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.75);
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 27px;
+    background-image: -moz-linear-gradient( 90deg, rgb(51,219,255) 0%, rgb(34,191,225) 50%, rgb(76,211,240) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(51,219,255) 0%, rgb(34,191,225) 50%, rgb(76,211,240) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(51,219,255) 0%, rgb(34,191,225) 50%, rgb(76,211,240) 100%);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: bold;
+    font-family: 'CriqueGroteskDisplay-Bold';
 }
-
 
 .btn-contact:hover {
     color: #ffffff;
 }
 
-
-
-/*#home .flaticon-last-track-left-arrow:before {
-    content: "\f101";
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 10px;
-    margin-left: 0;
-    font-weight: 900;
-    background-color: rgb(254, 83, 61);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-}
-
-#home .flaticon-right-arrow:before {
-    content: "\f100";
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 50%;
-    margin-left: 0;
-    font-weight: 900;
-    background-color: rgb(254, 83, 61);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-}*/
-
-
 /*================================= 
        Abuot Section Styling
   =================================*/
-#about {
-    padding: 42px 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.about-bg-color {
+    background: #f6f6f6;
 }
 
-.who-text {
+.about-heading-text {
     font-size: 40px;
-    color: #3a9e41;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
+    color: #33dbff;
+    font-weight: bold;
+    font-family: 'Cocogoose Pro Semilight-trial';
 }
 
-.who-sub-heading {
-    font-size: 26px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+.about-subheading-text {
+    font-size: 21px;
+    color: #1e1e1e;
+    font-family: 'Cocogoose Pro Semilight-trial';
 }
 
-.who-desc {
-    font-size: 18px;
-    color: #ffffff;
+.about-desc-text {
+    font-size: 19px;
+    color: #343434;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Crique Grotesk Display Light';
 }
 
-#about .img-border {
-    border: 3px solid #3a9e41;
-}
 
-#about .btn-position {
-    position: absolute;
-    bottom: 132px;
-    left: 35%;
-}
+
+
+
 /*================================= 
-        Cases Section Styling
-=================================*/
-#cases {
-    padding: 52px 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+       Feature Section Styling
+  =================================*/
+.feature-text {
+    font-size: 40px;
+    color: #33dbff;
+    font-weight: bold;
+    font-family: 'Cocogoose Pro Semilight-trial';
 }
 
-.case-heading-text {
-    font-size: 44px;
-    color: #3a9e41;
-    font-weight: 700;
+.feature-tag-line {
+    font-size: 20px;
+    color: #1e1e1e;
+    font-weight: bold;
+    font-family: 'Cocogoose Pro Semilight-trial';
+}
+
+.feature-desc {
+    font-size: 18px;
+    color: #343434;
+    font-weight: 300;
+    font-family: 'Crique Grotesk Display Light';
+}
+
+.case-border {
+    padding: 26px;
+    border: 1px solid #ededed;
+}
+
+    .case-border:hover {
+        background: #33dbff;
+    }
+
+        .case-border:hover .case-field, .case-border:hover .case-tag-line, .case-border:hover .case-desc {
+            color: #ffffff;
+        }
+
+            .case-border:hover .case-field::after {
+                background: #ffffff;
+            }
+
+.case-field {
+    position: relative;
+    font-size: 18px;
+    color: #33dbff;
+    font-weight: 400;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 0.5px 0.866px 2px rgba(0, 0, 0, 0.75);
+    font-family: 'Cocogoose Pro Semilight-trial';
 }
 
+    .case-field::after {
+        content: '';
+        position: absolute;
+        width: 36%;
+        height: 2px;
+        bottom: -6px;
+        left: 0;
+        background: #33dbff;
+    }
+
+.case-tag-line {
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: 300;
+    font-family: 'Crique Grotesk Display Light';
+}
 
 .case-desc {
-    font-size: 18px;
-    color: #2b312c;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #343434;
+    font-weight: 300;
+    font-family: 'Crique Grotesk Display Light';
 }
 
-.case-heading {
-    font-size: 18px;
-    color: #000000;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-}
-
-.hover-color:hover .case-heading {
-    color: #3a9e41;
-}
-
-.padding-bottom {
-    padding-bottom: 5rem;
-}
-
-#cases .flaticon-accident:before {
-    content: "\f101";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-accident:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-product:before {
-    content: "\f102";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-product:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-dislike:before {
-    content: "\f103";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-dislike:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-debt:before {
-    content: "\f104";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-debt:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-man-cycling:before {
-    content: "\f105";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-man-cycling:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-motorcycle:before {
-    content: "\f106";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-motorcycle:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-zynga-logotype:before {
-    content: "\f107";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-zynga-logotype:before {
-    color: #3a9e41
-}
-
-#cases .flaticon-truck-accident:before {
-    content: "\f108";
-    margin-left: 0;
-    font-size: 80px;
-    color: #fff;
-}
-
-#cases .hover-color:hover .flaticon-truck-accident:before {
-    color: #3a9e41
-}
-/*================================= 
-       Lawyer Secion Styling
-  =================================*/
-#lawyer {
-    padding: 85px 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.lawyer-text {
+#feature .flaticon-mother:before {
+    content: "\f11b";
     font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-mother:before {
     color: #ffffff;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
 }
 
-.lawyer-sub-heading {
-    font-size: 30px;
-    color: #3a9e41;
-    text-transform: capitalize;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+#feature .flaticon-handcuffs:before {
+    content: "\f116";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
 }
 
-.lawyer-text-desc {
-    font-size: 18px;
+#feature .case-border:hover .flaticon-handcuffs:before {
     color: #ffffff;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
 }
 
-.name-text {
-    font-size: 28px;
-    color: #3a9e41;
+#feature .flaticon-car-crash:before {
+    content: "\f113";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-car-crash:before {
+    color: #ffffff;
+}
+
+#feature .flaticon-health:before {
+    content: "\f11c";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-health:before {
+    color: #ffffff;
+}
+
+#feature .flaticon-mortarboard:before {
+    content: "\f10a";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-mortarboard:before {
+    color: #ffffff;
+}
+
+#feature .flaticon-house:before {
+    content: "\f108";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-house:before {
+    color: #ffffff;
+}
+
+#feature .flaticon-bank:before {
+    content: "\f107";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-bank:before {
+    color: #ffffff;
+}
+
+#feature .flaticon-foreclosure:before {
+    content: "\f10b";
+    font-size: 40px;
+    color: #33dbff;
+    margin-left: 66px;
+    position: absolute;
+    top: 7px;
+    right: 26px;
+}
+
+#feature .case-border:hover .flaticon-foreclosure:before {
+    color: #ffffff;
+}
+
+/*================================= 
+       Cases Images Styling
+  =================================*/
+.images-bg-color {
+    padding: 70px 0;
+    background: #f4f4f4;
+}
+
+.read-more-btn {
+    width: 180px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 26px;
+    background-image: -moz-linear-gradient( 90deg, rgb(51,219,255) 0%, rgb(34,191,225) 50%, rgb(76,211,240) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(51,219,255) 0%, rgb(34,191,225) 50%, rgb(76,211,240) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(51,219,255) 0%, rgb(34,191,225) 50%, rgb(76,211,240) 100%);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 47px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    padding: 0px 41px;
+    font-family: 'CriqueGroteskDisplay-Bold';
 }
 
-.field-text {
-    font-size: 22px;
-    color: #000000;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-}
-
-.about-lawyer {
-    font-size: 16px;
-    color: #2b2b2b;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
-
-.hover-div:hover {
-    background: #3a9e41;
-}
-
-    .hover-div:hover .name-text, .hover-div:hover .field-text, .hover-div:hover .about-lawyer {
+    .read-more-btn:hover {
         color: #ffffff;
     }
 
-.section-bg-color {
-    background: #f4f4f4;
+.blog-subheading-text {
+    font-size: 19px;
+    color: #1e1e1e;
+    font-family: 'Cocogoose Pro Semilight-trial';
 }
-/*================================= 
-       Contact Section Styling
-  =================================*/
-#contact {
-    padding: 45px 0;
+
+.btn-position {
+    position: absolute;
+    bottom: 117px;
+    left: 41%;
+}
+
+#blog .flaticon-right-arrow:before {
+    content: "\f100";
+    font-style: normal;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#blog .flaticon-last-track-left-arrow:before {
+    content: "\f101";
+    font-style: normal;
+    margin-left: 0;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#blog .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+}
+
+    #blog .owl-theme .owl-nav [class*=owl-] {
+        background: transparent;
+    }
+
+#blog .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    bottom: 148px;
+}
+
+#blog .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    bottom: 148px;
+}
+
+.tag-text {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'CriqueGroteskDisplay-Bold';
+    text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.41);
+}
+
+.bg-img-banner {
+    padding: 76px 0 60px 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.contact-heading {
-    font-size: 40px;
+.saying-by {
+    font-size: 20px;
     color: #ffffff;
+    font-weight: 400;
+    font-family: 'CriqueGroteskDisplay-Regular';
+}
+
+.floating-input {
+    border-bottom: 1px solid #000000 !important;
+    resize: none;
+}
+
+.btn-send {
+    width: 230px;
+    height: 65px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 43px;
+    background: #000000;
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 35px;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CriqueGroteskDisplay-Bold';
 }
 
-.contact-sub-heading {
-    font-size: 26px;
-    color: #ffffff;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+#contact .label-style {
+    font-size: 14px;
+    color: #1e1e1e;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Crique Grotesk Display Light';
 }
 
-.contact-desc {
+.contact-info-box {
+    padding: 30px;
+    border-style: solid;
+    text-align: center;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(51, 219, 255);
+    box-shadow: 2.5px 4.33px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+    .contact-info-box:hover {
+        background: #000000;
+        border-color: rgb(51, 219, 255);
+    }
+
+        .contact-info-box:hover .contact-info {
+            color: #33dbff;
+        }
+
+            .contact-info-box:hover .contact-info a {
+                color: #33dbff;
+            }
+
+.contact-info {
     font-size: 18px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
-
-#contact ::placeholder {
-    font-size: 14px;
-    color: #000000;
-    font-weight: 500;
+    color: #1b1b1b;
+    font-weight: bold;
+    margin-bottom: 0;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'CriqueGroteskDisplay-Bold';
 }
 
-#contact .field-name {
-    width: 100%;
-    height: 67.5px;
-    font-size: 14px;
-    color: #000000;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    border-style: solid;
-    border-width: 2px;
-    padding: 18px;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(58, 158, 65);
-    box-shadow: 7px 8.66px 10px 0px rgba(0, 0, 0, 0.5), inset 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
-}
-
-#contact .textarea-name {
-    width: 100%;
-    height: auto;
-    font-size: 14px;
-    color: #000000;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    border-style: solid;
-    border-width: 2px;
-    padding: 18px;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(58, 158, 65);
-    box-shadow: 7px 8.66px 10px 0px rgba(0, 0, 0, 0.5), inset 3px 3px 13px 0px rgba(0, 0, 0, 0.75);
-}
-
-#contact .btn-submit {
-    width: 86%;
-    height: 70px;
-    font-size: 20px;
-    line-height: 54px;
-    color: #ffffff;
-    background: #000000;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 0;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    box-shadow: 5px 8.66px 10px 0px rgba(0, 0, 0, 0.5),inset 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.btn-submit:hover {
-    color: #ffffff;
-    background: #000000;
-}
-
-#contact .flaticon-gavel:before {
-    content: "\f109";
-    position: absolute;
-    height: 70px;
-    width: 62px;
-    background: #ffffff;
+#contact .flaticon-smartphone-call:before {
+    content: "\f118";
+    font-size: 55px;
     margin-left: 0;
-    color: #3a9e41;
-    padding: 10px;
-    font-size: 33px;
-    box-shadow: 1px 6px 12px 0px #000000;
 }
 
-/*================================= 
-      Footer Section Styling
-  =================================*/
+.contact-info-box:hover .flaticon-smartphone-call:before {
+    color: #33dbff;
+}
+
+#contact .flaticon-email-filled-closed-envelope:before {
+    content: "\f11d";
+    font-size: 55px;
+    margin-left: 0;
+}
+
+.contact-info-box:hover .flaticon-email-filled-closed-envelope:before {
+    color: #33dbff;
+}
+
+.flaticon-placeholder:before {
+    content: "\f11e";
+    font-size: 55px;
+    margin-left: 0;
+}
+
+.contact-info-box:hover .flaticon-placeholder:before {
+    color: #33dbff;
+}
+
+.email-link-style {
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+    .email-link-style:hover {
+        text-decoration: none;
+        color: #1b1b1b;
+    }
+
 #footer {
-    background: #000000;
-    padding: 40px 0;
+    border-top: 3px solid #000000;
+    padding: 34px 0 31px 0;
+    background: #33dbff;
 }
 
-.about-team {
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
-
-#footer .info-text {
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
-
-#footer [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    font-family: Flaticon;
-    font-size: 25px;
-    font-style: normal;
-    margin-left: 0px;
-    color: #3a9e41;
-}
-
-.footer-heading-text {
-    font-size: 34px;
-    color: #ffffff;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-}
-
-.cases-heading-text {
-    font-size: 18px;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-
-#footer .date-text {
-    font-size: 14px;
-    color: #6b6b6b;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-}
-
-#footer .time-text {
+.footer-font {
     font-size: 24px;
-    color: #ffffff;
-    font-weight: 400;
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    color: #1c1c1c;
+    font-weight: bold;
+    font-family: 'CriqueGroteskDisplay-Bold';
 }
 /*================================= 
           Read More Styling
@@ -949,6 +920,22 @@ html, body {
 
 .mt-60 {
     margin-top: 60px;
+}
+
+.mt-59 {
+    margin-top: 59px;
+}
+
+.mt-58 {
+    margin-top: 58px;
+}
+
+.mt-57 {
+    margin-top: 57px;
+}
+
+.mt-56 {
+    margin-top: 56px;
 }
 
 .mt-55 {
@@ -1261,30 +1248,30 @@ button:focus {
 
 
 /*------ Scrolling Css --------*/
-#some .comments-space {
-    height: 277px;
+#blog .comments-space {
+    height: 380px;
     overflow: auto;
 }
     /* width */
-    #some .comments-space::-webkit-scrollbar {
+    #blog .comments-space::-webkit-scrollbar {
         width: 5px;
     }
 
     /* Track */
-    #some .comments-space::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px #f42e7d;
+    #blog .comments-space::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #33dbff;
         border-radius: 20px;
     }
 
     /* Handle */
-    #some .comments-space::-webkit-scrollbar-thumb {
-        background: #f42e7d;
+    #blog .comments-space::-webkit-scrollbar-thumb {
+        background: #33dbff;
         border-radius: 20px;
     }
 
         /* Handle on hover */
-        #some .comments-space::-webkit-scrollbar-thumb:hover {
-            background: #f42e7d;
+        #blog .comments-space::-webkit-scrollbar-thumb:hover {
+            background: #33dbff;
         }
 /*---------------------------*/
 /*================ Media Query ===============*/
@@ -1296,459 +1283,117 @@ button:focus {
 
 @media screen and (max-width: 1024px) {
     .nav-item {
-        padding: 0px 6px 0 4px;
+        padding: 0px 5px 0 5px;
     }
 
     .navbar-nav .nav-link {
-        font-size: 17px;
-        padding: 24px;
+        font-size: 16px;
     }
 
     #home .main-banner-text {
-        font-size: 50px;
+        line-height: 45px;
+        font-size: 38px;
     }
 
     #home .main-banner-desc {
         font-size: 16px;
     }
 
-    #home .btn-contact {
-        width: 185px;
-        height: 62px;
-        font-size: 16px;
-        line-height: 45px;
+    .about-heading-text {
+        font-size: 28px;
     }
 
-    #home .flaticon-phone-receiver:before {
-        height: 62px;
-    }
-
-    .who-text {
-        font-size: 30px;
-    }
-
-    .who-sub-heading {
-        font-size: 18px;
-    }
-
-    .who-desc {
-        font-size: 15px;
-    }
-
-    #about .btn-position {
-        bottom: 93px;
-        left: 34%;
-    }
-
-    .case-heading-text {
-        font-size: 36px;
-    }
-
-    .case-desc {
+    .about-subheading-text {
         font-size: 16px;
     }
 
-    .lawyer-text {
-        font-size: 30px;
+    .about-desc-text {
+        font-size: 16px;
     }
 
-    .lawyer-sub-heading {
+    .align-items-center {
+        align-items: unset !important;
+    }
+
+    .p-5 {
+        padding: 1.3rem !important;
+    }
+
+    .feature-text {
+        font-size: 28px;
+    }
+
+    .feature-tag-line {
+        font-size: 16px;
+    }
+
+    .feature-desc {
+        font-size: 16px;
+    }
+
+    .case-field {
+        font-size: 16px;
+    }
+
+    .blog-subheading-text {
+        font-size: 16px;
+    }
+
+    .media-blog-mt {
+        margin-top: 45px;
+    }
+
+    .tag-text {
+        font-size: 24px;
+    }
+
+    .contact-info {
+        font-size: 16px;
+    }
+
+    .footer-font {
         font-size: 20px;
-    }
-
-    .lawyer-text-desc {
-        font-size: 16px;
-    }
-
-    .p-31 {
-        padding: 0 11px !important;
-    }
-
-    .mt-65 {
-        margin-top: 15px;
-    }
-
-    .name-text {
-        font-size: 22px;
-    }
-
-    .field-text {
-        font-size: 18px;
-    }
-
-    .about-lawyer {
-        font-size: 13px;
-    }
-
-    .contact-heading {
-        font-size: 30px;
-    }
-
-    .contact-sub-heading {
-        font-size: 20px;
-    }
-
-    .contact-desc {
-        font-size: 16px;
-    }
-
-    .footer-heading-text {
-        font-size: 22px;
-    }
-
-    .cases-heading-text {
-        font-size: 14px;
-    }
-
-    #footer .time-text {
-        font-size: 21px;
-    }
-
-    #footer .date-text {
-        font-size: 13px;
-    }
-
-    .about-team {
-        font-size: 19px;
-    }
-
-    #footer .info-text {
-        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    #home .owl-carousel .owl-nav button.owl-prev {
-        left: 25px;
-        bottom: 316px;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 25px;
-        bottom: 316px;
-    }
-
-    #home .main-banner-text {
-        font-size: 36px;
-    }
-
-    #home .main-banner-desc {
-        font-size: 15px;
-    }
-
-    #home .btn-contact {
-        width: 155px;
-    }
-
-    #home .flaticon-trajectory:before {
-        font-size: 22px;
-    }
-
-    #home .flaticon-pointer:before {
-        font-size: 22px;
-    }
-
-    #about .btn-position {
-        bottom: 183px;
-        left: 38%;
-    }
-
-    .who-sub-heading {
-        font-size: 20px;
-    }
-
-    .who-desc {
-        font-size: 16px;
-    }
-
-    .case-heading-text {
-        font-size: 26px;
-    }
-
-    .case-desc {
-        font-size: 15px;
-    }
-
-    .case-heading {
-        font-size: 14px;
-    }
-
-    #cases .flaticon-accident:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-product:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-dislike:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-debt:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-man-cycling:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-motorcycle:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-zynga-logotype:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-truck-accident:before {
-        font-size: 56px;
-    }
-
-    #lawyer {
-        padding: 50px 0;
-    }
-
-    .lawyer-text-desc {
-        font-size: 14px;
-    }
-
-    .name-text {
-        font-size: 25px;
-    }
-
-    .field-text {
-        font-size: 20px;
-    }
-
-    .about-lawyer {
-        font-size: 16px;
-    }
-
-    .contact-heading {
-        font-size: 26px;
-    }
-
-    .contact-desc {
-        font-size: 14px;
-    }
-
-    #contact .btn-submit {
-        font-size: 17px;
-    }
-
-    .about-team {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 800px) {
 }
 
 @media screen and (max-width: 768px) {
-    #home .owl-carousel .owl-nav button.owl-prev {
-        left: 25px;
-        bottom: 316px;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 25px;
-        bottom: 316px;
-    }
-
-    #home .main-banner-text {
-        font-size: 36px;
-    }
-
-    #home .main-banner-desc {
-        font-size: 15px;
-    }
-
-    #home .btn-contact {
-        width: 155px;
-    }
-
-    #home .flaticon-trajectory:before {
-        font-size: 22px;
-    }
-
-    #home .flaticon-pointer:before {
-        font-size: 22px;
-    }
-
-    #about .btn-position {
-        bottom: 183px;
-        left: 38%;
-    }
-
-    .who-sub-heading {
+    .about-subheading-text {
         font-size: 20px;
     }
 
-    .who-desc {
-        font-size: 16px;
+    .about-desc-text {
+        font-size: 18px;
     }
 
-    .case-heading-text {
-        font-size: 26px;
+    .feature-text {
+        font-size: 24px;
     }
 
-    .case-desc {
-        font-size: 15px;
-    }
-
-    .case-heading {
+    .feature-desc {
         font-size: 14px;
     }
 
-    #cases .flaticon-accident:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-product:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-dislike:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-debt:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-man-cycling:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-motorcycle:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-zynga-logotype:before {
-        font-size: 56px;
-    }
-
-    #cases .flaticon-truck-accident:before {
-        font-size: 56px;
-    }
-
-    #lawyer {
-        padding: 50px 0;
-    }
-
-    .lawyer-text-desc {
+    .case-field {
         font-size: 14px;
-    }
-
-    .name-text {
-        font-size: 25px;
-    }
-
-    .field-text {
-        font-size: 20px;
-    }
-
-    .about-lawyer {
-        font-size: 16px;
-    }
-
-    .contact-heading {
-        font-size: 26px;
-    }
-
-    .contact-desc {
-        font-size: 14px;
-    }
-
-    #contact .btn-submit {
-        font-size: 17px;
-    }
-
-    .about-team {
-        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 415px) {
-    .navbar {
-        padding: 13px;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-prev {
-        left: 38%;
-        bottom: 50px;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 38%;
-        bottom: 50px;
-    }
-
-    .media-mr-78 {
-        margin-right: 78px;
-    }
-
-    .media-btn-width {
-        width: 50%;
-    }
-
-    #about .btn-position {
-        bottom: 112px;
-        left: 40%;
-    }
-
-    .media-align {
-        text-align: center;
-    }
-
-    .cases-heading-text {
-        font-size: 16px;
-    }
-
-    #contact .btn-submit {
-        width: 84%;
-    }
 }
 
 @media screen and (max-width: 411px) {
 }
 
 @media screen and (max-width: 376px) {
-    #contact .btn-submit {
-        width: 82%;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 36%;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-prev {
-        left: 34%;
-    }
-
-    #about .btn-position {
-        bottom: 98px;
-        left: 39%;
-    }
 }
 
 @media screen and (max-width: 360px) {
-    #contact .btn-submit {
-        width: 81%;
-    }
-
-    #about .btn-position {
-        bottom: 87px;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-next {
-        right: 36%;
-    }
-
-    #home .owl-carousel .owl-nav button.owl-prev {
-        left: 34%;
-    }
 }
 
 
@@ -1757,80 +1402,21 @@ button:focus {
 }
 
 @media screen and (max-width: 1280px) and (orientation: landscape) {
-    .mt-65 {
-        margin-top: 28px;
-    }
-
-    .name-text {
-        font-size: 26px;
-    }
-
-    .field-text {
-        font-size: 18px;
-    }
 }
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
-    #about .btn-position {
-        bottom: 155px;
-        left: 40%;
-    }
-
-    .case-heading-text {
-        font-size: 27px;
-    }
-
-    .case-heading {
-        font-size: 15px;
-    }
-
-    .about-lawyer {
-        font-size: 17px;
-    }
-
-    .name-text {
-        font-size: 25px;
-    }
-
-    .field-text {
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) {
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
-    .media-align {
-        text-align: center;
-    }
-
-    #about .btn-position {
-        bottom: 112px;
-        left: 39%;
-    }
-
-    #home .main-banner-text {
-        font-size: 40px;
-    }
-
-    .media-mr-78 {
-        margin-right: 50px;
-    }
-
-    .padding-bottom {
-        padding-bottom: 0px !important;
-    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
-    #about .btn-position {
-        bottom: 124px;
-        left: 36%;
-    }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {

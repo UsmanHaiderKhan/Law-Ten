@@ -2,9 +2,9 @@
 /*================== Read More Text ==================*/
 
 $(function () {
-    var showChar = 430;
-    var moretext = "Read More +";
-    var lesstext = "Read Less -";
+    var showChar = 710;
+    var moretext = "Read More";
+    var lesstext = "Read Less";
     $('.comments-space').each(function () {
         var content = $(this).html();
         if (content.length > showChar) {
@@ -15,7 +15,7 @@ $(function () {
                 hide_content +
                 '</span>' +
 
-                '<a href="" class="morelink read-text mt-15" style="display:block;">' +
+                '<a href="" class="morelink read-more-btn mt-15 mb-3 link-style " style="display:block;">' +
                 moretext +
                 '</a>' + '</span>';;
 
@@ -80,8 +80,8 @@ $(function () {
         margin: 20,
         dots: false,
         nav: true,
-        slideBy: 3,
-        item: 3,
+        slideBy: 1,
+        item: 1,
         navText: ["<i class='flaticon-last-track-left-arrow'> </i>", "<i class='flaticon-right-arrow'> </i>"],
         responsiveClass: true,
         responsive: {
@@ -96,22 +96,22 @@ $(function () {
                 nav: false
             },
             600: {
-                items: 2,
+                items: 1,
                 dots: false,
                 nav: true
             },
             768: {
-                items: 2,
+                items: 1,
                 dots: false,
                 nav: true
             },
             830: {
-                items: 2,
+                items: 1,
                 dots: false,
                 nav: true
             },
             1000: {
-                items: 3,
+                items: 1,
                 dots: false,
                 nav: true
             }
@@ -126,7 +126,7 @@ $(function () {
         nav: true,
         slideBy: 1,
         item: 1,
-        navText: ["<i class=' flaticon-pointer'></i>", "<i class='flaticon-trajectory'> </i>"],
+        navText: ["<i class='flaticon-last-track-left-arrow'></i>", "<i class='flaticon-right-arrow'> </i>"],
         responsiveClass: true,
         responsive: {
             0: {
